@@ -12,7 +12,7 @@
         </style>
     </head>
     <body>
-     <div class="celtra-ad-v3">
+      <div class="celtra-ad-v3">
     <img src="data:image/png,celtra" style="display: none" onerror="
         (function(img) {
             var params = {'accountId':'4ae29c59','clickUrl':'','expandDirection':'undefined','preferredClickThroughWindow':'new','removeAdvertisementBars':'1','clickEvent':'advertiser','externalAdServer':'Custom','tagVersion':'html-standard-7'};
