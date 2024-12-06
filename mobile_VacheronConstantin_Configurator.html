@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <meta name="robots" content="noindex">
+        <title>MOBKOI Studio Demo</title>
+        <style type="text/css">
+            html, body {
+                margin: 0;
+                padding: 0;
+            } 
+html::-webkit-scrollbar {
+display: none;
+} 
+        </style>
+    </head>
+    <body>
+
+
+  <div class="celtra-ad-v3">
+    <img src="data:image/png,celtra" style="display: none" onerror="
+        (function(img) {
+            var params = {'accountId':'4ae29c59','clickUrl':'','expandDirection':'undefined','preferredClickThroughWindow':'new','removeAdvertisementBars':'1','textColor':'#FFFFFF','barColor':'#000000','advertisementMessage':'Advertisement','scrollMessage':'Scroll to continue with content','useFullWidth':'1','clickEvent':'advertiser','externalAdServer':'Custom','tagVersion':'html-standard-7'};
+            var req = document.createElement('script');
+            req.id = params.scriptId = 'celtra-script-' + (window.celtraScriptIndex = (window.celtraScriptIndex||0)+1);
+            params.clientTimestamp = new Date/1000;
+            params.clientTimeZoneOffsetInMinutes = new Date().getTimezoneOffset();
+            params.hostPageLoadId=window.celtraHostPageLoadId=window.celtraHostPageLoadId||(Math.random()+'').slice(2);
+            var qs = '';
+            for (var k in params) {
+                qs += '&amp;' + encodeURIComponent(k) + '=' + encodeURIComponent(params[k]);
+            }
+            var src = 'https://ads.celtra.com/8f0ec05e/web.js?' + qs;
+            req.src = src;
+            img.parentNode.insertBefore(req, img.nextSibling);
+        })(this);
+    "/>
+</div>
+
+
+    </body>
+</html>
